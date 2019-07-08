@@ -16,7 +16,7 @@ steps:
 - task: AzureCLI@1
   displayName: 'Attach folder to workspace'
   inputs:
-    azureSubscription: 'build-demo'
+    azureSubscription: '21fc1c6f-c758-4429-b24d-6a93332ef16c'
     scriptLocation: inlineScript
     inlineScript: 'az ml folder attach -w rvice_test_mitarai -g sbt_iot_verification_RG'
 
