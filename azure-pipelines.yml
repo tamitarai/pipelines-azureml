@@ -18,7 +18,7 @@ steps:
   inputs:
     azureSubscription: 'build-demo'
     scriptLocation: inlineScript
-    inlineScript: 'az ml folder attach -w myworkspace -g myresourcegroup'
+    inlineScript: 'az ml folder attach -w rvice_test_mitarai -g sbt_iot_verification_RG'
 
 - task: AzureCLI@1
   displayName: 'Create compute for training'
